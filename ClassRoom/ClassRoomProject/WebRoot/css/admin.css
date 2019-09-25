@@ -1,0 +1,91 @@
+body {
+	background-color: #add8e6;
+	text-align: center;
+	background-image: url(./image/5.png);
+}
+
+#Admin {
+	font-family: "Î¢ÈíÑÅºÚ";
+	display: inline-block;
+}
+
+#Schedule {
+	font-size: 10px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#Class {
+	font-size: 15px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#Classroom1{
+	font-size: 15px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+#Schedule {
+	font-size: 15px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#Course {
+	font-size: 15px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#Teacher {
+	font-size: 15px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#Student {
+	font-size: 15px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#Application {
+	font-size: 15px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+table {
+	boder-weidth: 0;
+	empty-cells: show;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+td,th {
+	empty-cells: show;
+	padding: 3px 3px;
+	vertical-align: top;
+	text-aligh: left;
+	border-weidth: 0;
+	border-spacing: 0;
+	background-color: #ececec
+}
+
+th {
+	font-weight: bold;
+	background-color: #e2e2e2;
+}
+
+header {
+	margin-right: 1000px;
+	font-size: 20px;
+}
+
+article {
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside {
+	display: inline-block;
+	vertical-align: top;
+}
+
+form {
+	font-size: 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}

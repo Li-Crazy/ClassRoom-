@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url(../image/5.png);
+	background-size: cover;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	/*background-color: #008080;*/
+}
+
+h3 {
+	text-align: center;
+	/*background-color: #20b2aa;*/
+}
+
+p {
+	width: 80px;
+	height: 30px;
+	font-size: 18px;
+}
+table {
+	boder-weidth: 0;
+	empty-cells: show;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+td,th {
+	empty-cells: show;
+	padding: 3px 3px;
+	vertical-align: top;
+	text-aligh: left;
+	border-weidth: 0;
+	border-spacing: 0;
+	background-color: #ececec
+}
+
+th {
+	font-weight: bold;
+	background-color: #e2e2e2;
+}
+#Select{
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+header{
+	margin-right: 1000px;
+	
+}

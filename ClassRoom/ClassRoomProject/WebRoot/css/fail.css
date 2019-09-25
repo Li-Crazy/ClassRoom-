@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url(../image/5.png);
+	background-size: cover;
+	text-align: center;
+}
+
+h1 {
+	margin: 20px 0px 10px 0px;
+	padding: 0px;
+	line-height: 20px;
+	color: #444;
+}

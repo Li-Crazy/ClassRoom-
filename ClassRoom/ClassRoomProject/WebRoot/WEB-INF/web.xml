@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<filter>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>filter.EncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>filter.LoginFilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+
+	<servlet>
+		<servlet-name>ShowAdminServlet</servlet-name>
+		<servlet-class>servlet.ShowAdminServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowApplicationServlet</servlet-name>
+		<servlet-class>servlet.ShowApplicationServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowClassroomServlet</servlet-name>
+		<servlet-class>servlet.ShowClassroomServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowClassServlet</servlet-name>
+		<servlet-class>servlet.ShowClassServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowCourseServlet</servlet-name>
+		<servlet-class>servlet.ShowCourseServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowScheduleServlet</servlet-name>
+		<servlet-class>servlet.ShowScheduleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowStudentServlet</servlet-name>
+		<servlet-class>servlet.ShowStudentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowTeacherServlet</servlet-name>
+		<servlet-class>servlet.ShowTeacherServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>ShowScheduleByClassServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleByClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleByTeacherServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleByTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleByClassroomServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleByClassroomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleBySchoolTimeServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleBySchoolTimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleByClassroomTServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleByClassroomTServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleByClassTServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleByClassTServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleBySchoolTimeTServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleBySchoolTimeTServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleByClassroomAServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleByClassroomAServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleByClassAServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleByClassAServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleBySchoolTimeAServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleBySchoolTimeAServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowScheduleByTeacherAServlet</servlet-name>
+    <servlet-class>servlet.ShowScheduleByTeacherAServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/servlet/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowAdminServlet</servlet-name>
+		<url-pattern>/servlet/ShowAdminServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowApplicationServlet</servlet-name>
+		<url-pattern>/servlet/ShowApplicationServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowClassroomServlet</servlet-name>
+		<url-pattern>/servlet/ShowClassroomServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowClassServlet</servlet-name>
+		<url-pattern>/servlet/ShowClassServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowCourseServlet</servlet-name>
+		<url-pattern>/servlet/ShowCourseServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowScheduleServlet</servlet-name>
+		<url-pattern>/servlet/ShowScheduleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowStudentServlet</servlet-name>
+		<url-pattern>/servlet/ShowStudentServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowTeacherServlet</servlet-name>
+		<url-pattern>/servlet/ShowTeacherServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleByClassServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleByClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleByTeacherServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleByTeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleByClassroomServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleByClassroomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleBySchoolTimeServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleBySchoolTimeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleByClassroomTServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleByClassroomTServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleByClassTServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleByClassTServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleBySchoolTimeTServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleBySchoolTimeTServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleByClassroomAServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleByClassroomAServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleByClassAServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleByClassAServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleBySchoolTimeAServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleBySchoolTimeAServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScheduleByTeacherAServlet</servlet-name>
+    <url-pattern>/servlet/ShowScheduleByTeacherAServlet</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>Main.jsp</welcome-file>
+	</welcome-file-list>
+	<login-config>
+		<auth-method>BASIC</auth-method>
+	</login-config>
+</web-app>
